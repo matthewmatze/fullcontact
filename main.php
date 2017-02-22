@@ -45,7 +45,8 @@
 	require("continent.php");
 
 	//read in string email
-	$email = readline("Please enter in the email address you would like to add:");
+	//$email = readline("Please enter in the email address you would like to add:");
+	$email = "bart@fullcontact.com";
 
    //cat the curl command and email address then execute it
 	$url = "curl -o temp.xml -H\"X-FullContact-APIKey:d0d83247005dc681\" \"https://api.fullcontact.com/v2/person.xml?email=";
@@ -76,11 +77,17 @@
 	//find and save the person's id to be referenced in $pid
 	$pid = findid($con);
 
+
 	//Create and insert the photos into the photo table
-	phototable($con);
-	if(isset($cont->photo)){
+	phototable($con);	
+	if(isset($photos->photo)){
 		foreach($photos->photo as $cnt => $photo){
-			insertphoto($con,$photo,$pid);
+   		//cat the curl command and email address then execute it
+			$photourl = "curl -o temp.jpg ";
+			$photourl = $photourl . $photo->url;
+			echo exec($photourl);
+			insertphotoinfo($con,$photo,$pid);
+			//insertimage($con);
 		}
 	}
 

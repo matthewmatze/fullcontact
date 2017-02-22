@@ -1,5 +1,266 @@
 <?xml version='1.0' encoding='UTF-8'?><person>
-  <status>422</status>
-  <message>Parameter(type='email', value='') failed validation.</message>
-  <requestId>224fae68-a9f5-46b2-a451-c2282464a6b3</requestId>
+  <status>200</status>
+  <requestId>ad380a51-e6c5-4c23-8f14-44b87e74d8af</requestId>
+  <likelihood>0.89</likelihood>
+  <photos>
+    <photo>
+      <type>foursquare</type>
+      <typeId>foursquare</typeId>
+      <typeName>Foursquare</typeName>
+      <url>https://d2ojpxxtu63wzl.cloudfront.net/static/6e0d28c8b32c751040a97474492ea033_d10ac2d12d07b79391234c96526d95661cc85f314684efd184ab2954c892cd3a</url>
+      <isPrimary>true</isPrimary>
+    </photo>
+    <photo>
+      <type>gravatar</type>
+      <typeId>gravatar</typeId>
+      <typeName>Gravatar</typeName>
+      <url>https://d2ojpxxtu63wzl.cloudfront.net/static/d1e0032e39a3f3efa790bd36fab63f2c_5cc233ac859a942ccd1293d771fe04e8bfe239be191f9a95aa66039dec7d6f49</url>
+      <isPrimary>false</isPrimary>
+    </photo>
+  </photos>
+  <contactInfo><chats>
+      <chat>
+        <client>skype</client>
+        <handle>bart.lorang</handle>
+      </chat>
+    </chats>
+    <websites>
+      <website>
+        <url>https://fullcontact.com/bart</url>
+      </website>
+    </websites>
+    <familyName>Lorang</familyName>
+    <fullName>Bart Lorang</fullName>
+    <givenName>Bart</givenName>
+  </contactInfo>
+  <organizations>
+    <organization>
+      <isPrimary>false</isPrimary>
+      <name>V1.vc</name>
+      <startDate>2015-07</startDate>
+      <title>Co-Founder &amp; Managing Director</title>
+      <current>true</current>
+    </organization>
+  </organizations>
+  <demographics>
+    <locationDeduced>
+      <normalizedLocation>Denver, Colorado, United States</normalizedLocation>
+      <deducedLocation>Denver, Colorado, United States</deducedLocation>
+      <city>
+        <deduced>false</deduced>
+        <name>Denver</name>
+      </city>
+      <state>
+        <deduced>false</deduced>
+        <name>Colorado</name>
+        <code>CO</code>
+      </state>
+      <country>
+        <deduced>false</deduced>
+        <name>United States</name>
+        <code>US</code>
+      </country>
+      <continent>
+        <deduced>true</deduced>
+        <name>North America</name>
+      </continent>
+      <county>
+        <deduced>true</deduced>
+        <name>Denver</name>
+      </county>
+      <likelihood>1.0</likelihood>
+    </locationDeduced>
+    <gender>Male</gender>
+    <locationGeneral>80202 Denver, Colorado, United States</locationGeneral>
+  </demographics>
+  <socialProfiles>
+    <socialProfile>
+      <bio>Co-Founder and CEO of FullContact</bio>
+      <type>aboutme</type>
+      <typeId>aboutme</typeId>
+      <typeName>About.me</typeName>
+      <url>https://about.me/lorangb</url>
+      <username>lorangb</username>
+    </socialProfile>
+    <socialProfile>
+      <bio>Entrepeneur, Tech Nerd; CEO and Co-Founder of @fullcontact. Passionate about solving the world's contact information problem and helping entrepreneurs.</bio>
+      <followers>2919</followers>
+      <type>angellist</type>
+      <typeId>angellist</typeId>
+      <typeName>AngelList</typeName>
+      <url>https://angel.co/bartlorang</url>
+      <username>bartlorang</username>
+      <id>182</id>
+    </socialProfile>
+    <socialProfile>
+      <type>facebook</type>
+      <typeId>facebook</typeId>
+      <typeName>Facebook</typeName>
+      <url>https://www.facebook.com/bart.lorang</url>
+    </socialProfile>
+    <socialProfile>
+      <type>flickr</type>
+      <typeId>flickr</typeId>
+      <typeName>Flickr</typeName>
+      <url>https://www.flickr.com/people/39267654@N00</url>
+      <username>39267654@n00</username>
+      <id>39267654@N00</id>
+    </socialProfile>
+    <socialProfile>
+      <type>github</type>
+      <typeId>github</typeId>
+      <typeName>Github</typeName>
+      <url>https://github.com/lorangb</url>
+      <username>lorangb</username>
+    </socialProfile>
+    <socialProfile>
+      <followers>1</followers>
+      <type>google</type>
+      <typeId>google</typeId>
+      <typeName>GooglePlus</typeName>
+      <url>https://plus.google.com/111748526539078793602</url>
+      <id>111748526539078793602</id>
+    </socialProfile>
+    <socialProfile>
+      <bio>Tech Entrepreneur and Angel Investor</bio>
+      <type>gravatar</type>
+      <typeId>gravatar</typeId>
+      <typeName>Gravatar</typeName>
+      <url>https://gravatar.com/forsetiholdings</url>
+      <username>forsetiholdings</username>
+      <id>11481456</id>
+    </socialProfile>
+    <socialProfile>
+      <type>instagram</type>
+      <typeId>instagram</typeId>
+      <typeName>Instagram</typeName>
+      <url>https://instagram.com/bartlorang</url>
+    </socialProfile>
+    <socialProfile>
+      <bio>Mr. Lorang is a proven entrepreneur, executive and manager in the global technology industry. Mr. Lorang is active in the startup technology community as an angel investor, strategic advisor and speaker at industry events.
+
+ Bart serves as Co-Founder &amp; CEO of FullContact. Mr. Lorang is responsible for communicating FullContact's vision and strategy. Mr. Lorang is a visionary technologist with extensive experience conceiving, designing, building, marketing and selling enterprise software solutions on a global scale.
+
+ Bart is also Co-Founder and Managing Director of v1.vc, a $5M seed stage fund dedicated to helping crazy entrepreneurs change the world.
+
+ Bart serves on the Board of the Colorado Technology Association, Rapt Media and is on the Advisory Board of Education Funding Partners.
+
+ Bart is a regular guest on FOX Business channel and has been featured by ABC, CNN, FOX News, MSNBC, Forbes, FastCompany, Yahoo, Inc Magazine and TechCrunch.
+
+ Prior to founding FullContact, Mr. Lorang was an owner in Dimension Technology Solutions where he served as President and oversaw all day to day operations, customer engagements, partner relations, product development, sales and marketing functions.
+
+ Mr. Lorang is recognized for providing solutions that are simple and work reliably. He strongly believes in using technology to solve problems as opposed to using problems to demonstrate technology.
+
+ Mr. Lorang holds a Bachelor of Science degree in Computer Science from the University of Colorado and an MBA from the Daniels College of Business at University of Denver.
+
+ Specialties: Investments, Startups, Financial Analysis, Sales, Technical Sales, Implementations, System Integration, Project Management, Leadership</bio>
+      <followers>500</followers>
+      <following>500</following>
+      <type>linkedin</type>
+      <typeId>linkedin</typeId>
+      <typeName>LinkedIn</typeName>
+      <url>https://www.linkedin.com/in/bartlorang</url>
+      <username>bartlorang</username>
+      <id>8995706</id>
+    </socialProfile>
+    <socialProfile>
+      <followers>89</followers>
+      <following>26</following>
+      <type>pinterest</type>
+      <typeId>pinterest</typeId>
+      <typeName>Pinterest</typeName>
+      <url>http://www.pinterest.com/lorangb/</url>
+      <username>lorangb</username>
+    </socialProfile>
+    <socialProfile>
+      <type>plancast</type>
+      <typeId>plancast</typeId>
+      <typeName>Plancast</typeName>
+      <url>http://www.plancast.com/lorangb</url>
+      <username>lorangb</username>
+    </socialProfile>
+    <socialProfile>
+      <type>quora</type>
+      <typeId>quora</typeId>
+      <typeName>Quora</typeName>
+      <url>http://www.quora.com/bart-lorang</url>
+      <username>bart-lorang</username>
+    </socialProfile>
+    <socialProfile>
+      <bio>CEO &amp; Co-Founder of @FullContact, Managing Director @v1vc_. Tech Entrepreneur, Investor. Husband to @parkerbenson and Father to Greyson Lorang</bio>
+      <followers>5454</followers>
+      <following>741</following>
+      <type>twitter</type>
+      <typeId>twitter</typeId>
+      <typeName>Twitter</typeName>
+      <url>https://twitter.com/bartlorang</url>
+      <username>bartlorang</username>
+      <id>5998422</id>
+    </socialProfile>
+    <socialProfile>
+      <type>xing</type>
+      <typeId>xing</typeId>
+      <typeName>Xing</typeName>
+      <url>https://www.xing.com/profile/bart_lorang2</url>
+      <username>bart_lorang2</username>
+      <id>18196825_38ba49</id>
+    </socialProfile>
+    <socialProfile>
+      <type>youtube</type>
+      <typeId>youtube</typeId>
+      <typeName>YouTube</typeName>
+      <url>https://youtube.com/user/lorangb</url>
+      <username>lorangb</username>
+    </socialProfile>
+  </socialProfiles>
+  <digitalFootprint><scores>
+      <score>
+        <provider>klout</provider>
+        <type>general</type>
+        <value>50</value>
+      </score>
+    </scores>
+    <topics>
+      <topic>
+        <provider>aboutme</provider>
+        <value>Entrepreneur</value>
+      </topic>
+      <topic>
+        <provider>aboutme</provider>
+        <value>Husband</value>
+      </topic>
+      <topic>
+        <provider>aboutme</provider>
+        <value>Tech Nerd</value>
+      </topic>
+      <topic>
+        <provider>aboutme</provider>
+        <value>Technology</value>
+      </topic>
+      <topic>
+        <provider>angellist</provider>
+        <value>Fundraising</value>
+      </topic>
+      <topic>
+        <provider>angellist</provider>
+        <value>Investor</value>
+      </topic>
+      <topic>
+        <provider>angellist</provider>
+        <value>Technical Sales</value>
+      </topic>
+      <topic>
+        <provider>angellist</provider>
+        <value>Venture Fundraising</value>
+      </topic>
+      <topic>
+        <provider>klout</provider>
+        <value>Boulder</value>
+      </topic>
+      <topic>
+        <provider>klout</provider>
+        <value>Twitter</value>
+      </topic>
+    </topics>
+  </digitalFootprint>
 </person>
