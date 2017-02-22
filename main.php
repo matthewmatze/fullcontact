@@ -81,10 +81,15 @@
 	//Create and insert the photos into the photo table
 	phototable($con);	
 	if(isset($photos->photo)){
-		foreach($photos->photo as $cnt => $photo){
-   		//cat the curl command and email address then execute it
-			insertphotoinfo($con,$photo,$pid);
-			//insertimage($con);
+		if(is_array($photos->photo)){
+			foreach($photos->photo as $cnt => $photo){
+   			//cat the curl command and email address then execute it
+				insertphotoinfo($con,$photo,$pid);
+			}
+		} else {
+			foreach($photos as $photo){
+				insertphotoinfo($con,$photo,$pid);
+			}
 		}
 	}
 
@@ -95,8 +100,14 @@
 	//Create chat table and insert all elements if any
 	chattable($con);
 	if(isset($cont->chats->chat)){
-		foreach($cont->chats->chat as $cnt => $chat){
-			insertchat($con,$chat,$pid);
+		if(is_array($cont->chats->chat)){
+			foreach($cont->chats->chat as $cnt => $chat){
+				insertchat($con,$chat,$pid);
+			}
+		} else {
+			foreach($cont->chats as  $chat){
+				insertchat($con,$chat,$pid);
+			}
 		}
 	}
 
@@ -174,17 +185,29 @@
 
 	//Create and insert elements into score table if any
 	scoretable($con);
-	if(isset($digi->scores)){
-		foreach($digi->scores as $cnt => $score){
-			insertscores($con,$score,$pid);
+	if(isset($digi->scores->score)){
+		if(is_array($digi->scores->score)){
+			foreach($digi->scores->score as $cnt => $score){
+				insertscores($con,$score,$pid);
+			}
+		} else {
+			foreach($digi->scores as $score){
+				insertscores($con,$score,$pid);
+			}
 		}
 	}
 
 	//Create and insert elements into topic table if any
 	topictable($con);
-	if(isset($digi->topics)){
-		foreach($digi->topics->topic as $cnt => $topic){
-			inserttopic($con,$topic,$pid);
+	if(isset($digi->topics->topic)){
+		if(is_array($digi->topics->topic)){
+			foreach($digi->topics->topic as $cnt => $topic){
+				inserttopic($con,$topic,$pid);
+			}
+		} else {
+			foreach($digi->topics as  $topic){
+				inserttopic($con,$topic,$pid);
+			}
 		}
 	}
 	//close connection with server
