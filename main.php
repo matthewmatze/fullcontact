@@ -128,12 +128,12 @@
 	//Create and insert elements into organization table if any
 	organizationtable($con);		
 	if(isset($org->organization)){
-		if(is_array($cont->websites->website)){
+		if(is_array($org->organization)){
 			foreach($org->organization as $cnt => $organization){
 				insertorganization($con,$organization,$pid);
 			}
 		} else {
-			foreach($org as $cnt => $organization){
+			foreach($org as  $organization){
 				insertorganization($con,$organization,$pid);
 			}
 		}
