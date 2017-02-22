@@ -1,15 +1,10 @@
 <?php
 Function insertphotoinfo($con,$photo,$pid) {
 	
-	$fp = fopen('./temp.jpg', 'r');
-	$content = fread($fp, filesize('./temp.jpg'));
-	$content = addslashes($content);
-	fclose($fp);
-
    $photoinfoinsert = "INSERT INTO photo (type, typeId,
-	typeName, url, image, isPrimary, id) VALUES ('$photo->type', 
+	typeName, url, isPrimary, id) VALUES ('$photo->type', 
 	'$photo->typeId', '$photo->typeName', '$photo->url', 
-	'$content', '$photo->isPrimary', '$pid');";
+	'$photo->isPrimary', '$pid');";
 
    if(mysqli_query($con, $photoinfoinsert) === TRUE){
    	echo "Photo Info inserted Successfully\n";
@@ -39,7 +34,6 @@ function phototable($con) {
 	`typeId` VARCHAR(50) NOT NULL ,
 	`typeName` VARCHAR(50) NOT NULL ,
 	`url` VARCHAR(300) NOT NULL,
-	`image` VARBINARY(65000),
 	`isPrimary` VARCHAR(8) NOT NULL,
 	`id` INT,
 	`photo_id` INT AUTO_INCREMENT PRIMARY KEY

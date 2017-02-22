@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?><person>
   <status>200</status>
-  <requestId>ad380a51-e6c5-4c23-8f14-44b87e74d8af</requestId>
+  <requestId>8269ae46-416b-4e81-960e-5c4864acdb67</requestId>
   <likelihood>0.89</likelihood>
   <photos>
     <photo>
@@ -9,6 +9,13 @@
       <typeName>Foursquare</typeName>
       <url>https://d2ojpxxtu63wzl.cloudfront.net/static/6e0d28c8b32c751040a97474492ea033_d10ac2d12d07b79391234c96526d95661cc85f314684efd184ab2954c892cd3a</url>
       <isPrimary>true</isPrimary>
+    </photo>
+    <photo>
+      <type>pinterest</type>
+      <typeId>pinterest</typeId>
+      <typeName>Pinterest</typeName>
+      <url>https://d2ojpxxtu63wzl.cloudfront.net/static/39ead1eb8adf5c3d96a487eb8696fcd9_ac783382818430d9fca92bd8c2f6bc5be908c9283066560a373298a7ed481851</url>
+      <isPrimary>false</isPrimary>
     </photo>
     <photo>
       <type>gravatar</type>
@@ -223,6 +230,10 @@
     <topics>
       <topic>
         <provider>aboutme</provider>
+        <value>Angel Investor</value>
+      </topic>
+      <topic>
+        <provider>aboutme</provider>
         <value>Entrepreneur</value>
       </topic>
       <topic>
@@ -238,24 +249,20 @@
         <value>Technology</value>
       </topic>
       <topic>
-        <provider>angellist</provider>
-        <value>Fundraising</value>
-      </topic>
-      <topic>
-        <provider>angellist</provider>
-        <value>Investor</value>
-      </topic>
-      <topic>
-        <provider>angellist</provider>
-        <value>Technical Sales</value>
-      </topic>
-      <topic>
-        <provider>angellist</provider>
-        <value>Venture Fundraising</value>
+        <provider>klout</provider>
+        <value>Boulder</value>
       </topic>
       <topic>
         <provider>klout</provider>
-        <value>Boulder</value>
+        <value>Colorado</value>
+      </topic>
+      <topic>
+        <provider>klout</provider>
+        <value>Software</value>
+      </topic>
+      <topic>
+        <provider>klout</provider>
+        <value>Startups</value>
       </topic>
       <topic>
         <provider>klout</provider>

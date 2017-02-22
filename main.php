@@ -45,8 +45,8 @@
 	require("continent.php");
 
 	//read in string email
-	//$email = readline("Please enter in the email address you would like to add:");
-	$email = "bart@fullcontact.com";
+	$email = readline("Please enter in the email address you would like to add:");
+	//$email = "bart@fullcontact.com";
 
    //cat the curl command and email address then execute it
 	$url = "curl -o temp.xml -H\"X-FullContact-APIKey:d0d83247005dc681\" \"https://api.fullcontact.com/v2/person.xml?email=";
@@ -83,9 +83,6 @@
 	if(isset($photos->photo)){
 		foreach($photos->photo as $cnt => $photo){
    		//cat the curl command and email address then execute it
-			$photourl = "curl -o temp.jpg ";
-			$photourl = $photourl . $photo->url;
-			echo exec($photourl);
 			insertphotoinfo($con,$photo,$pid);
 			//insertimage($con);
 		}
